@@ -8,17 +8,7 @@ import EmptyState from '../components/empty/EmptyState'
 export default function About() {
   return (
     <>
-      <PageTitle subtitle="Componentes básicos com CSS.">About</PageTitle>
-      <Section title="Detail View">
-        <DetailView title="Item demonstrativo">
-          <p className="muted">Campos e textos de exemplo para o detalhe.</p>
-        </DetailView>
-      </Section>
-      <Section title="Skeleton / Empty State">
-        <Skeleton>
-          <EmptyState>Carregue dados para visualizar conteúdo.</EmptyState>
-        </Skeleton>
-      </Section>
+      <div> teste</div>
     </>
   )
 }
